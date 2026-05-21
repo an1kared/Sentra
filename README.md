@@ -1,6 +1,50 @@
-# Sentra
-Multimodal AI app that brings paintings to life — scan artwork, ask it questions, hear it respond with lip-synced voice. Gemini · ElevenLabs · Wav2Lip · FastAPI · React
+# Sentra 🎨🤖
 
-python gemini elevenlabs wav2lip fastapi react multimodal-ai hackathon computer-vision
+> Scan a painting, and it comes alive. Ask Mona Lisa why she isn't smiling — and she answers herself.
 
-# Devpost Link: https://devpost.com/software/lumi-h9yu1w?_gl=1*xwv4vq*_gcl_au*MTUzNzgzNDEzNy4xNzU2MjcyMDI2*_ga*OTYxMzk1OTU0LjE3NTYyNzIwMjc.*_ga_0YHJK3Y10M*czE3NTk2Nzk4ODIkbzEzJGcxJHQxNzU5NjgwMDg4JGozOSRsMCRoMA..
+Built at **HackGT 12: Midnight at the Museum**
+
+🔗 [Devpost](https://devpost.com/software/lumi-h9yu1w)
+
+---
+
+## What it does
+
+Sentra turns static paintings into living conversations. Point your phone at any artwork, ask it a question, and the painting responds — in its own voice, with lip-synced animation.
+
+---
+
+## Pipeline
+Image Input
+↓
+Gemini (artwork identification + character dialogue)
+↓
+ElevenLabs (text → realistic speech audio)
+↓
+Wav2Lip (audio → lip-synced video)
+↓
+React Frontend / FastAPI Backend
+
+Orchestrated via **Cedar OS** for smooth, modular sequencing across all components.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Vision + LLM | Gemini API |
+| Text to Speech | ElevenLabs |
+| Lip Sync | Wav2Lip |
+| Backend | FastAPI (Python) |
+| Frontend | React + Next.js |
+| Orchestration | Cedar OS |
+
+---
+
+## Built By
+
+- Anika Reddy Gaddam
+- Vaidehi Gupta
+- Tuhina Parida
+- Nidhi Krishna
