@@ -15,18 +15,15 @@ Sentra turns static paintings into living conversations. Point your phone at any
 ---
 
 ## Pipeline
-Image Input
-↓
-Gemini (artwork identification + character dialogue)
-↓
-ElevenLabs (text → realistic speech audio)
-↓
-Wav2Lip (audio → lip-synced video)
-↓
-React Frontend / FastAPI Backend
+
+**Image Input → Gemini → ElevenLabs → Wav2Lip → Frontend**
+
+1. **Gemini** identifies the artwork and generates character-driven dialogue
+2. **ElevenLabs** converts the text response into realistic speech audio
+3. **Wav2Lip** animates the painting's lips to sync with the audio
+4. **React + FastAPI** handles the frontend and backend routing
 
 Orchestrated via **Cedar OS** for smooth, modular sequencing across all components.
-
 ---
 
 ## Tech Stack
